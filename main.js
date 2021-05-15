@@ -64,3 +64,13 @@ function equal()
     }
 }
 
+// Restart
+function rest()
+{
+    document.getElementById('board').value = '';
+    n = 1;
+    n1 = 0;
+    n2 = 0;
+    mark = '';
+}
+
