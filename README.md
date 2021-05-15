@@ -1,5 +1,5 @@
 # Calculator
-Basic calculator by - Html &amp; Css &amp; JavaScript
+Basic Calculator By - Html &amp; Css &amp; JavaScript
 
 # Preview
 
