@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="buttons">
+        <input type="text" class="board" id='board' disabled="disabled">
+        <br>
+        <button class="n-button" onclick="getN(7)">7</button>
+        <button class="n-button" onclick="getN(8)">8</button>
+        <button class="n-button" onclick="getN(9)">9</button>
+        <button class="n-button" style="padding: 50px 52px;" onclick="division()">÷</button>
+        <br>
+        <button class="n-button" onclick="getN(4)">4</button>
+        <button class="n-button" onclick="getN(5)">5</button>
+        <button class="n-button" onclick="getN(6)">6</button>
+        <button class="n-button" style="padding: 50px 54px;" onclick="minus()">-</button>
+        <br>
+        <button class="n-button" onclick="getN(1)">1</button>
+        <button class="n-button" onclick="getN(2)">2</button>
+        <button class="n-button" onclick="getN(3)">3</button>
+        <button class="n-button" onclick="plus()">+</button>
+        <br>
+        <button class="n-button" onclick="getN(0)" style="padding: 50px 115px;">0</button>
+        <button class="n-button" onclick="getN('.')" style="padding: 50px 54px;">.</button>
+        <button class="n-button" style="background-color: #ffa500;" onclick="equal()">=</button>
+    </div>
+</body>
+</html>
