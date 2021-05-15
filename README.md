@@ -1,5 +1,6 @@
 # Calculator
 Basic Calculator By - Html &amp; Css &amp; JavaScript
+Responsive - 580 X 900
 
 # Preview
 
